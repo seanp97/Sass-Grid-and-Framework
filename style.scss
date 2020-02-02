@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Andika');
 
+$primaryBtn: #3399ff;
+$primaryBtnHover: #0073e6;
+$sucessBtn: #47d147;
+$sucessBtnHover: #29a329;
+$warningBtn: #ff7733;
+$warningBtnHover: #e65c00;
+$dangerBtn: #ff4d4d;
+$dangerBtnHover: #e60000;
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -168,49 +177,49 @@ h6 {
             // Buttons \\
 
             [class*="-primary-button"] {
-                background: #3399ff;
+                background: $primaryBtn;
                 border-radius: 2px;
                 color: #FFF;
                 font-weight: 600;
                 transition-duration: 1s;
                 &:hover {
-                    background: #0073e6;
+                    background: $primaryBtnHover;
                     transition-duration: 1s;
                 }
             }
 
             [class*="-success-button"] {
-                background: #47d147;
+                background: $sucessBtn;
                 border-radius: 1.5px;
                 color: #FFF;
                 font-weight: 600;
                 transition-duration: 1s;
                 &:hover {
-                    background: #29a329;
+                    background: $sucessBtnHover;
                     transition-duration: 1s;
                 }
             }
 
             [class*="-warning-button"] {
-                background: #ff7733;
+                background: $warningBtn;
                 border-radius: 1.5px;
                 color: #FFF;
                 font-weight: 600;
                 transition-duration: 1s;
                 &:hover {
-                    background: #e65c00;
+                    background: $warningBtnHover;
                     transition-duration: 1s;
                 }
             }
 
             [class*="-danger-button"] {
-                background: #ff4d4d;
+                background: $dangerBtn;
                 border-radius: 1.5px;
                 color: #FFF;
                 font-weight: 600;
                 transition-duration: 1s;
                 &:hover {
-                    background: #e60000;
+                    background: $dangerBtnHover;
                     transition-duration: 1s;
                 }
             }
